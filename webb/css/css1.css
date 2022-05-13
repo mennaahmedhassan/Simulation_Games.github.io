@@ -1,0 +1,537 @@
+*{
+    padding:0px;
+    margin:0px;
+
+}
+#menna_html ,#menna1_body, #menna2_body{  /*to delete scrollX*/
+    max-width: 100%;
+    overflow-x: hidden;
+}
+#menna1_body{    /*body in SimulationGames1*/
+    background-color: rgb(27, 26, 26);
+}
+#menna_header{   /*header in SimulationGames1*/
+    width:100%;
+    background-color: rgb(27, 26, 26);
+    position: fixed;
+    min-height:100px; 
+    position: fixed;
+    padding:10px 40px;
+    z-index:999 ;
+}
+#menna_div1{
+    text-transform: uppercase;
+    color: #f0f0f0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.1s;
+}
+
+#menna_h1:first-letter{
+    color:rgba(128, 201, 234, 0.977);
+    font-size: 50px; /*>32px*/
+}
+
+#menna_ul  li{
+    display: inline;
+    position: relative;
+    bottom: 35px;
+    left:55%;
+    margin: 30px;
+}
+@media screen and (max-width:1200px) {
+    #menna_ul li{
+        position: relative;
+        bottom: 35px;
+        left:45%;
+        margin: 15px;
+    }
+    
+}
+#menna_ul  li a{
+    text-decoration: none;
+    color:#f0f0f0;
+    font-size: 30px;
+    transition: 0.5s;
+    padding: 7px 15px; /*to box-shadow*/
+}
+
+#menna_ul #menna_li a,i{
+    color:rgba(128, 201, 234, 0.977);
+}
+#menna_ul  #menna_li i{
+    font-size: 20px;
+    position: relative;
+    bottom:2px;
+}
+#menna_ul  li a:hover{
+    color:rgba(128, 201, 234, 0.977);
+    box-shadow: 2px 4px 5px 0px rgba(128, 201, 234, 0.977);
+}
+#menna_section1{    /*Suggested Games (section1) in SimulationGames1 */
+    min-height:640px ;
+    margin-top: 100px;
+    padding-bottom:30px ;
+}
+#menna_div2{
+    padding: 5px;
+}
+#menna_h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:42px;
+    margin-top:30px ;
+    font-weight: 900;
+    color: aliceblue;
+}
+#menna_div2 a {
+    text-decoration: none;
+}
+#menna_div2 a img{
+    display: inline-block;
+    padding: 50px;
+    margin: 0 10px;
+    width: 12%;
+    opacity: 0.6;
+    transition: 0.5s;
+    flex-wrap: wrap;
+}
+
+#menna_div2 a img:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+#menna_div3{
+    width: 20%;
+    min-height: 50px;
+    background-color:rgba(128, 201, 234, 0.614) ;
+    margin-top: 35px;
+    padding:10px 0 0 0;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+#menna_a1{
+    color:rgb(27, 26, 26) ;
+    font-size: 30px;
+    text-decoration: none; 
+}
+#menna_div3:hover{
+    background-color:rgba(237, 241, 243, 0.618) ;
+    transform: scale(1.1);
+} 
+
+#menna_section2{     /*(section2) in SimulationGames1 */
+    background-color: #f0f0f0f7;
+    min-height: 50px;
+    padding: 45px 0 15px 0;
+}
+#menna_p{
+    color: rgb(27, 26, 26);
+    font-size: 45px;
+    font-family:Arial, Helvetica, sans-serif;  
+}
+#menna_span{
+    color:rgba(59, 125, 155, 0.977);
+}
+#menna_section3{    /*Games (section3) in SimulationGames1 */
+    background-color: #f0f0f0f7;
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left:14% ;
+}
+
+#menna_div4{
+    position:relative;
+    margin: 40px 25px;
+    padding:25px 30px;
+    width: 270px;
+    height: 350px;
+    box-shadow: 0px 0px 20px 5px rgba(1, 1, 1, 0.222);
+    border-radius: 25px;
+    background-image: linear-gradient(rgb(22, 23, 22),rgba(115, 144, 170, 0.534),rgb(22, 23, 22));
+    transition: 0.7s;
+}
+#menna_div4:hover{
+    transform: scale(1.1);
+}
+#menna_section3 h3{
+    color:#f0f0f0 ;
+    font-size:25px ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 15px;
+}
+#menna_H2{
+    direction: rtl;
+}
+#menna_div5{
+    width: 35%;
+    height: 7%;
+    padding:5px;
+    background-color:rgba(128, 201, 234, 0.977) ;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.7s;
+    position: absolute;
+    right:10%;
+    bottom:13%; 
+}
+#menna_div5:hover{
+    opacity: 70%;
+    width: 40%;
+}
+#menna_div5 a{
+    text-decoration: none;
+    color:azure;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menna_section_audio{  /*audio (section4) in SimulationGames1 */
+    width: 100%;
+    min-height: 200px;
+    background-color:rgba(128, 201, 234, 0.615);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    opacity: 0.8;
+    position: relative;
+}
+#menna_section_audio div{
+    width: 300px;
+    min-height: 400px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.352),rgba(0, 0, 0, 0.253) ),url('https://corp.smartbrief.com/wp-content/uploads/2021/07/energy-3073847_1280.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:300px 400px;
+    box-shadow: 0 0 25px 0 rgba(255, 255, 255, 0.171);
+    position: relative;
+    border-radius:25px 35px ;
+}
+
+#menna_section_audio audio{
+    position: absolute;
+    bottom:0;
+}
+#menna_section_audio button{
+    position: absolute;
+    top:50px;
+    right:90px;
+    border:0px;
+    outline:0px;
+    background: none;
+    cursor:pointer;
+    transition: 1s;
+    width: 0px;
+    height: 0%;
+}
+#menna_button_sun i{
+    transform: scale(2);
+    color: #f0f0f0;
+}
+#menna_button_moon i{
+    transform: scale(2.1);
+    color: #f0f0f0;
+    margin:60px 0;
+}
+#menna_section_audio button:hover{
+    opacity: 0.6;
+}
+#menna_div6{
+    background-color: #f0f0f0f7;
+    width: 100%;
+    height: 10px;
+}
+#menna_footer{    /*footer in SimulationGames1 */
+    min-height: 200px;
+    padding-top:50px ;
+    background-color:  rgb(27, 26, 26);
+    text-align: center;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+#menna_footer i{
+    color: aliceblue;
+    padding-top: 25px;
+    margin: 0 5px;
+    transition: 0.3s;
+}
+#menna_footer i:hover{
+    color:rgba(128, 201, 234, 0.614) ;
+}
+                                /* SimulationGames2*/
+#menna_scroll_button{   /*scroll button*/
+    border: 0px;
+    outline: 0px;
+    cursor: pointer;
+    width: 0px;
+    height: 0px;
+    display: none;
+}    
+#menna_scroll_button i{
+    z-index: 999;
+    transform: scale(3);
+    position: fixed;
+    bottom:100px ;
+    right:50px;
+    color: rgba(93, 65, 84, 0.938);
+    transition: 0.5s;
+}          
+#menna_scroll_button i:hover{
+    color: rgba(93, 65, 84, 0.767);
+}            
+
+#menna2_header{     /*header in SimulationGames2*/
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    background-color: rgb(226, 221, 221);
+}    
+#menna2_div2{   /*title in SimulationGames2*/
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    position: relative;
+    right: 10%;
+    margin: 0 auto;
+    transition: 0.2s;
+    font-family: 'Ms Madi', cursive;
+    cursor: pointer;
+}
+#menna2_header a{
+    text-decoration: none;
+    color: rgba(17, 16, 16, 0.796);
+    
+    font-size: 50px;
+}   
+                  
+#menna2_header h1 span{
+    color: rgba(55, 23, 46, 0.782);
+    font-size:55px ;
+
+}
+#menna2_div2:hover{
+    opacity: 0.8;
+}
+#menna2_header nav{  /*nav in SimulationGames2*/
+    height: 90px;
+    width: 200px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:0 55px;
+}
+#menna2_header nav a{
+    text-decoration: none;
+    color: rgb(23, 22, 22);
+    font-size: 27px;
+    text-align: left;
+}
+#menna2_div1{
+    padding: 7px 15px;
+    transition: 0.3s;
+
+}
+#menna2_div1:hover{
+    min-width: 90px;
+    background-color:rgba(55, 23, 46, 0.782) ;
+    border-radius: 25px;
+}
+#menna2_header nav a i{
+    color: rgb(23, 22, 22);
+    transform: scale(0.7,0.6);
+    position: relative;
+    top:3px
+}
+#menna2_search{ /*search (section1) in SimulationGames2*/
+    width: 100%;
+    min-height: 700px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('../media/photos/SimulationGames image1.jpg');
+    background-position: center;
+    background-size: 100% 700px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: left;
+    flex-direction:column ;
+    padding: 150px 0 0 100px;
+}
+#menna2_search p{
+    font-size: 70px;
+    letter-spacing: 4px;
+    margin: 70px 0 50px 20px;
+    font-weight: 600;
+    color: #fff;
+}
+#menna2_search form{
+    width: 340px;
+    height: 40px;
+    background-color:rgba(55, 23, 46, 0.668);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    padding: 0px 40px ;
+}
+#menna2_input_search{
+    color: rgba(238, 232, 240, 0.663); /* line of search كتابة و خط ف الجمب */
+    font-size: 20px;
+    border: 0;
+    background-color:transparent ;
+    outline:none; /* border when click */
+}
+#menna2_input_search::placeholder{
+    color: rgba(246, 246, 241, 0.422);
+}
+#menna2_search button{
+    border: 0;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    margin-left: 70px;
+}
+#menna2_search button i{
+    color: rgba(246, 246, 241, 0.677);  
+}
+#menna2_content{ /*content (section2) in SimulationGames2*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:0px 50px ;
+}
+#menna2_pre_content{
+    color:rgba(55, 23, 46, 0.668) ;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+#menna_game1{
+    width: 55%;
+    min-height: 150px;
+    border:10px solid rgba(55, 23, 46, 0.668);
+    margin: 7%;
+    padding: 45px 45px 25px 30px;
+    box-shadow:0px 0px 15px 0px rgba(35, 34, 34, 0.473) ; 
+    transition: 0.3s;
+} 
+@media screen and (max-width:1390px) { /*to text*/
+    #menna2_content{
+        justify-content: center;
+    }
+    #menna_game1{
+        width: 80%;
+    }
+}
+#menna_game1:hover{
+    transform: scale(1.1);
+    box-shadow:0 0 0 0 ; 
+}
+#menna_game1 h2{
+    font-family: 'Cookie', cursive;
+    font-size: 30px;
+}
+#menna2_h2{
+    text-align: center;
+    transform: translate(25px,-15px);
+}
+#menna2_content img{
+    width: 25%;
+    border-radius: 50%;
+    float: right;
+    transform: translate(-35px,-160px);
+}
+#menna2_content a{
+    text-decoration: none;
+    color: rgb(74, 30, 62);
+    margin-left: 40%;
+    font-weight: 600;
+    }
+#menna_game1 pre{
+    transform: translate(-100px, 10px);
+}
+#menna_game1 iframe , video{
+    margin-top: 8px;
+}
+#menna2_section2_table{ /*table (section3) SimulationGames2*/
+    width:100% ;
+    min-height: 280px;
+    background-color: rgba(93, 65, 84, 0.767);
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#menna2_table{
+    min-width: 80%;
+    margin: 25px 95px;
+    min-height: 150px;
+    border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.15);
+}
+#menna2_table th,td{
+    padding: 15px;
+    text-align: center;
+    border: #f3f3f3 1px solid;
+    font-size: large;
+}
+#menna2_table td{
+    color: #f0f0f0;
+    font-family: 'Amiri', serif;
+    font-family: 'Cookie', cursive;
+}
+#menna2_tr1 td{
+    color: #000;
+    font-size:x-large;
+}
+#menna2_table th{
+    background-color: #f3f3f3;
+    font-family: 'IBM Plex Serif', serif;
+}
+#menna2_table i{
+    color:rgba(55, 23, 46, 0.538) ;
+    transform: scale(0.8);
+}
+#menna2_footer{
+    width: 100%;
+    min-height: 200px;
+    background-color:rgb(226, 221, 221) ;
+    text-align: center;
+    padding:2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#menna2_div_footer{   /*footer in SimulationGames2 */
+    margin: 5%;
+}
+#menna2_div_footer p{
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+#menna2_div_footer i{
+    color: black;
+    margin:15px;
+    cursor: pointer;
+    transform: scale(2);
+    transition: 0.2s;
+}
+#menna2_div_footer i:hover{
+    color:rgba(55, 23, 46, 0.668);
+}
+#menna2_hr{
+    width: 2px;
+    height: 150px;
+    background-color:rgba(55, 23, 46, 0.668) ;
+}
